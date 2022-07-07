@@ -17,16 +17,17 @@ public class CarroService {
         return carroRepository.findAll();
     }
 
-    public Carro getCarroById(Integer id) {
+    public Carro getCarroById(int id) {
         return carroRepository.findById(id).orElse(null);
     }
 
-    public Carro saveCarro(Carro carro) {
-        return carroRepository.save(carro);
+    public Carro save(Carro carro) {
+        Carro nuevoCarro = carroRepository.save(carro);
+        return nuevoCarro;
     }
 
-    public List<Carro> getCarrosByUsuarioId(Integer usuarioId) {
-        return carroRepository.findByUsuario(usuarioId);
+    public List<Carro> byUsuarioId(int usuarioId) {
+        return carroRepository.findByUsuarioId(usuarioId);
     }
 
 }

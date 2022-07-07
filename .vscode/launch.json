@@ -19,6 +19,16 @@
       "projectName": "usuarioserivce",
       "args": "",
       "envFile": "${workspaceFolder}/.env"
+    },
+    {
+      "type": "java",
+      "name": "Spring Boot-MotoserviceApplication<motoservice>",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "mainClass": "com.moto.service.motoservice.MotoserviceApplication",
+      "projectName": "motoservice",
+      "args": "",
+      "envFile": "${workspaceFolder}/.env"
     }
   ]
 }

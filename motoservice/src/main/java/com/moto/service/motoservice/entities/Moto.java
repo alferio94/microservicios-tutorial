@@ -1,4 +1,4 @@
-package com.carro.service.carroservice.entities;
+package com.moto.service.motoservice.entities;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -11,11 +11,11 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 @Entity
-@Data
 @Table(name = "carros")
+@Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class Carro {
+public class Moto {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
@@ -23,4 +23,5 @@ public class Carro {
     private String marca;
     private String modelo;
     private int usuarioId;
+
 }
