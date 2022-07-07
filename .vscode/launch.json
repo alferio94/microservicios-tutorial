@@ -1,0 +1,24 @@
+{
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Spring Boot-CarroserviceApplication<carroservice>",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "mainClass": "com.carro.service.carroservice.CarroserviceApplication",
+      "projectName": "carroservice",
+      "args": "",
+      "envFile": "${workspaceFolder}/.env"
+    },
+    {
+      "type": "java",
+      "name": "Spring Boot-UsuarioserivceApplication<usuarioserivce>",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "mainClass": "usuario.service.usuarioserivce.UsuarioserivceApplication",
+      "projectName": "usuarioserivce",
+      "args": "",
+      "envFile": "${workspaceFolder}/.env"
+    }
+  ]
+}
