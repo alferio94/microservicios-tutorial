@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "usuarioserivce"
+		},
+		{
+			"name": "carroservice",
+			"path": "carroservice"
+		}
+	],
+	"settings": {
+		"java.configuration.updateBuildConfiguration": "automatic"
+	}
+}
